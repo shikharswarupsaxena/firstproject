@@ -1,0 +1,67 @@
+ /* import fonts from fonts.css */
+
+
+ @import url(./fonts.css);
+
+ /* Import vaiables */
+ @import url(./partials/_variables.css);
+
+
+
+ /* start Navigation */
+.navbar-brand{
+    padding: 0 2rem 0 10rem ;
+}
+
+.collapsenavbar-collapse {
+    margin-right: 15em;
+  }
+
+
+.nav-link{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+   
+
+
+.navbar-nav.active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* Banner area */
+
+.site-main.site-banner{
+    background: url(../img/banner/home-banner.png) no-repeat;
+    background-position: 0%, 50%;
+}
+
+
+
+.site-main.site-banner.site-title h3
+{
+    padding-top: 35%;
+}
+/* End Banner area */
+
+/* .header_area.main-menu.container-fluid.navbar-brand{
+    padding: 6rem 240rem;
+} */
+ /* end navigation */
+ 
